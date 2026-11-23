@@ -1,0 +1,25 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+
+# 虚拟环境
+.venv/
+venv/
+
+# 私密配置
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+
+# 运行产物
+knowledge/temp_data/
+knowledge/temp-files/
+**/auto/
+
+# 备份
+*.bak
+*.old
+*.log
