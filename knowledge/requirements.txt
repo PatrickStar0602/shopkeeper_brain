@@ -1,10 +1,15 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+python-multipart
+FlagEmbedding
+mcp
 minio
 langchain
 langchain-openai
 langgraph
 grandalf
-pymilvus[milvus_lite]
-pymilvus[model]
+pymilvus[model,milvus_lite]
 sentence-transformers
 neo4j
 pymongo
